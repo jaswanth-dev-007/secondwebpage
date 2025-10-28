@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>charity</title>
+    <style>
+        body{
+            margin: 0px;
+        }
+        .container{
+            background-image: url(https://preview.colorlib.com/theme/charitee/assets/img/hero/h1_hero1.jpg.webp);
+            height: 800px;
+            background-size: cover;
+            margin: 0%;
+        }
+
+        .navbar {
+            display:flex;
+            justify-content: space-between;
+            height: 100px;
+            position: relative;
+            animation: slideIn;
+        }
+         @keyframes slideIn{
+            from{
+                top: -200px;
+                opacity: 0;
+            }
+            to{
+                top: 0%;
+                opacity: 1;
+            }
+        } 
+
+        .container2{
+            display: flex;
+            gap:30px;
+            justify-content: space-between;
+            color: white;
+            cursor: pointer;
+        }
+
+        #one:hover{
+            color: aqua;
+            transition: all in 0.4s;
+            cursor: pointer;
+         }
+
+         #two:hover{
+            color:aqua;
+            cursor: pointer;
+            transition: all in 0.4s;
+         }
+
+         #three:hover{
+            color: aqua;
+            cursor: pointer;
+            transition: all in 0.4s;
+         }
+
+         #four:hover{
+            color: aqua;
+            cursor: pointer;
+            transition: all in 0.4s;
+         }
+
+         #five:hover{
+            color: aqua;
+            cursor: pointer;
+            transition: all in 0.4s;
+         }
+
+         #six:hover{
+            color: aqua;
+            cursor: pointer;
+            transition: all in 0.4s;
+         } 
+        .container3{
+            display:flex;
+            color: white;
+            gap:20px;
+        }
+        #button {
+            width: 130px;
+            height: 50px;
+            background-color: #F15B43;
+            color: white; 
+        }
+        #button:hover {
+            background-color: transparent;
+            cursor: pointer;
+            transition: all;
+        }        
+    </style>
+</head>
+<body>
+    <div class="container" >
+        <div class="navbar">
+            <div class="container1">
+                <img src="https://preview.colorlib.com/theme/charitee/assets/img/logo/logo.png">
+            </div>
+
+            <div class="container2">
+                    <p id="one">HOME</p><br>
+                    <p id="two">WHO WE ARE</p>
+                    <p id="three">PROGRAM</p>
+                    <p id="four">ABOUT</p>
+                    <p id="five">BLOG</p>
+                    <p id="six">CONTACT US</p>
+            </div>
+        
+            <div class="container3">
+                <h3>call to: 9849150209</h3>
+                <button id="button"> make a donation</button>
+            </div>
+            
+        </div>
+        <div>
+            
+        </div>
+    </div>    
+</body>
+</html>
