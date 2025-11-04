@@ -7,25 +7,24 @@
 <style>
 .parent-div{
     height: 500px;
-    width: 500px;
+    width: 800px;
     background-color: aquamarine;
     position: relative;
  }    
  .first-child{
-    height: 100px;
-    width: 150px;
-    background-color: yellow;
-    border-radius: 10px;
-    text-align: center;
-   padding-top: 50px;
- }
+        height: 100px;
+        width: 150px;
+        background-color: yellow;
+        position: absolute;
+        border-radius: 10px;
+        text-align: center;
+     }
  .second-child{
     height: 100px;
     width: 150px;
     background-color: red;
     border-radius: 10px;
     text-align: center;
-   padding-top: 50px;
    position: absolute;
    top: 0;
    right: 0;
@@ -35,9 +34,8 @@
     width: 150px;
     background-color: green;
     border-radius: 10px;
-    text-align: center;
-   padding-top: 50px;
-   position: absolute;
+    text-align: center;  
+     position: absolute;
    right: 0;
    bottom: 0;
  }
@@ -47,7 +45,6 @@
         background-color:blue;
         border-radius: 10px;
         text-align: center;
-        padding-top: 50px;
         position: absolute;
         left: 0;
         bottom: 0;
@@ -58,21 +55,20 @@
         background-color:purple;
         border-radius: 10px;
         text-align: center;
-        padding-top: 50px;
         position: absolute;
-        left: 170px;
-        top: 170px;
+        left: 300px;
+        top: 200px;
  }
 </style>
 
 </head>
 <body>
     <div class=" parent-div">
-        <div class="first-child">first child</div>
-        <div class="second-child">second child</div>
-        <div class="third-child">third child</div>
-        <div class="fourth-child">fourth child</div>
-        <div class="fifth-child">fifth child</div>
+        <div class="first-child"></div>
+        <div class="second-child"></div>
+        <div class="third-child"> </div>
+        <div class="fourth-child"></div>
+        <div class="fifth-child"></div>
     </div>
 </body>
 </html>
